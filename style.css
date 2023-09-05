@@ -3,12 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+.heading{
+    position: absolute;
+    top: 6%;
+    font-size: 2rem;
+}
 body{
     height: 100vh;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: cornflowerblue;
 }
 .container{
     background-color: white;
@@ -196,4 +202,10 @@ body{
 .ninth-row-right {
     text-align: center;
     display: flex;
+}
+.footer{
+    position: absolute;
+    bottom: 5%;
+    font-size: 1.3rem;
+    color: aliceblue;
 }
